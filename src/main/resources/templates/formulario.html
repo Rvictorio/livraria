@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Formulário de Livro</title>
+</head>
+<body>
+<h1>Formulário de Livro</h1>
+<form method="POST" action="/salvarLivro">
+
+  <label for="titulo">Título do Livro:</label>
+  <input type="text" id="titulo" name="titulo" required>
+  <br>
+  <label for="autor">Autor do Livro:</label>
+  <input type="text" id="autor" name="autor" required>
+  <br>
+  <input type="submit" value="Salvar Livro">
+</form>
+
+  <nav>
+    <ul>
+      <li><a href="/lista">Ver Lista de Livros</a></li>
+      <li><a href="/livraria">Voltar a página inicial</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
