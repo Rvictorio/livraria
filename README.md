@@ -23,6 +23,7 @@ Além disso, ganhei experiência na criação de um projeto completo, desde a co
 - [Arquitetura](#arquitetura)
 - [Tecnologias](#tecnologias)
 - [Colaboradores](#colaboradores)
+- [Executando o Projeto](#executando)
 
 
 
@@ -56,6 +57,24 @@ Minha aplicação de livraria segue uma arquitetura organizada em várias camada
 
 Esta arquitetura em camadas me ajudou a manter minha aplicação organizada, facilitando a manutenção e permitindo que eu adicione novos recursos à medida que o projeto evolui. Além disso, a modularidade torna mais fácil desenvolver e testar partes específicas da aplicação separadamente. Seguir as melhores práticas de desenvolvimento Spring e Java foi essencial para o sucesso do projeto.
 
+## Executando
+
+Siga estas etapas para executar o projeto em sua máquina local.
+
+### Pré-requisitos
+
+Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
+
+- [Java](https://www.oracle.com/java/) (versão 8 ou superior)
+- [Maven](https://maven.apache.org/) (opcional, mas recomendado)
+
+### Clonando o Repositório
+
+Clone este repositório em sua máquina local:
+
+```bash
+git clone https://github.com/Rvictorio/livraria.git
+```
 
 ## Tecnologias 
 * JAVA
