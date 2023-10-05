@@ -35,7 +35,7 @@ public class LivrariaController {
     @PostMapping("/formulario")
     public String formulario(Livro livro){
         System.out.println("Dados do livro(" +livro.getTitulo() + livro.getAutor() + ")");
-        livros.add(new Livro(livro.getTitulo(), livro.getAutor()));
+        livros.add(new Livro(livro.getTitulo(), livro.getAutor(), livro.getValor()));
         return "/formulario";
     }
     //

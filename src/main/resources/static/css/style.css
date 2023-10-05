@@ -1,107 +1,79 @@
-/* Reset de estilos para garantir consistência entre navegadores */
-body, h1, h2, p, ul, li, label, input, select {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-/* Estilo para o corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Estilo para cabeçalhos */
-h1, h2 {
-    color: #333;
+h1 {
+  text-align: center;
+  font-size: 36px;
+  padding: 20px 0;
 }
 
-/* Estilo para parágrafos */
-p {
-    color: #666;
-}
-
-/* Estilo para listas não ordenadas */
-ul {
-    list-style-type: none;
-}
-
-/* Estilo para links */
-a {
-    text-decoration: none;
-    color: #3498db;
-}
-
-/* Estilo para links ao passar o mouse */
-a:hover {
-    text-decoration: underline;
-}
-
-/* Estilo para botões */
-button, input[type="submit"] {
-    background-color: #3498db;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-/* Estilo para botões ao passar o mouse */
-button:hover, input[type="submit"]:hover {
-    background-color: #2980b9;
-}
-
-/* Estilo para formulários */
 form {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 400px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
 }
 
-/* Estilo para rótulos de formulário */
-label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #333;
+form label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
 }
 
-/* Estilo para campos de entrada de texto */
-input[type="text"],
-input[type="number"],
-select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    background-color: #f9f9f9;
-    color: #333;
+form input[type="text"],
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #555;
+  background-color: #444;
+  color: #fff;
 }
 
-/* Estilo para tabelas */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+form input[type="submit"] {
+  background-color: #00bcd4;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
 }
 
-/* Estilo para células de tabela */
-th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: left;
+form input[type="submit"]:hover {
+  background-color: #0097a7;
 }
 
-/* Estilo para cabeçalhos de tabela */
-th {
-    background-color: #3498db;
-    color: #ffffff;
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+
+nav ul li a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #222;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
 }
