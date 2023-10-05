@@ -1,18 +1,15 @@
 # Livraria Utopia 📖
  
-O projeto da livraria em Java é uma aplicação web desenvolvida com o framework Spring que permite aos usuários pesquisar, comprar e gerenciar livros. O principal problema que ele resolve é facilitar a compra e a organização de livros online, proporcionando uma experiência conveniente aos amantes da leitura.
+O projeto da livraria em Java é uma aplicação web desenvolvida com o framework Spring que permite aos usuários gerenciar livros. O principal problema que ele resolve é a organização de livros online, proporcionando uma experiência conveniente aos amantes da leitura.
 
 Decidi fazer esse projeto para aprimorar minhas habilidades em desenvolvimento web com o Spring e criar uma aplicação prática que pudesse ser útil para pessoas que desejam comprar livros de forma online.
 
-Os desafios de implementação incluíram a configuração inicial do projeto Spring Boot, o design da estrutura de dados para armazenar informações sobre livros, pedidos e usuários, a criação de páginas web dinâmicas usando Thymeleaf e a integração com um banco de dados para persistência de dados.
+Os desafios de implementação incluíram a configuração inicial do projeto Spring Boot, o design da estrutura de dados para armazenar informações sobre livros e a criação de páginas web dinâmicas usando Thymeleaf.
 
 Com este projeto, aprendi a:
 
 Utilizar o Spring Boot para configurar rapidamente uma aplicação web.
-Criar um modelo de dados eficiente e usar o Spring Data JPA para interagir com o banco de dados.
 Desenvolver uma interface do usuário interativa e responsiva usando Thymeleaf.
-Implementar recursos de segurança para proteger áreas sensíveis da aplicação, como o login de usuários.
-Gerenciar sessões de usuário e carrinhos de compras.
 Testar e depurar aplicativos web de forma eficaz.
 Além disso, ganhei experiência na criação de um projeto completo, desde a concepção até a implantação, e a importância de documentar o código para facilitar a manutenção e colaboração futura. Este projeto foi uma oportunidade valiosa para aplicar meus conhecimentos em um contexto prático e desafiador.
 
@@ -44,16 +41,7 @@ Minha aplicação de livraria segue uma arquitetura organizada em várias camada
 3. **Camada de Serviço**:
    - Aqui, eu implementei a lógica de negócios da minha aplicação. Isso inclui operações como adicionar livros ao carrinho, calcular o total da compra, processar pedidos, gerenciar contas de usuário e interagir com o banco de dados.
    - O Spring foi fundamental para a criação de serviços que encapsulam a lógica de negócios e fornecem funcionalidades reutilizáveis para os controladores.
-   - A camada de serviço interage com a camada de acesso a dados (DAO) para recuperar ou persistir informações no banco de dados.
 
-4. **Camada de Acesso a Dados**:
-   - Nesta camada, eu usei o Spring JDBC e o Spring Data JPA para interagir com o banco de dados PostgreSQL.
-   - O Spring JDBC simplificou o acesso ao banco de dados, permitindo operações CRUD e consultas personalizadas.
-   - O Spring Data JPA proporcionou uma camada de abstração sobre o JPA, o que tornou mais simples e seguro definir repositórios para acessar os dados.
-
-5. **Banco de Dados (PostgreSQL)**:
-   - Utilizei o PostgreSQL como meu sistema de gerenciamento de banco de dados (DBMS) para armazenar informações sobre livros, pedidos, usuários e outros dados relevantes do projeto.
-   - Eu defini entidades JPA que mapeavam as tabelas no banco de dados.
 
 Esta arquitetura em camadas me ajudou a manter minha aplicação organizada, facilitando a manutenção e permitindo que eu adicione novos recursos à medida que o projeto evolui. Além disso, a modularidade torna mais fácil desenvolver e testar partes específicas da aplicação separadamente. Seguir as melhores práticas de desenvolvimento Spring e Java foi essencial para o sucesso do projeto.
 
@@ -79,9 +67,6 @@ git clone https://github.com/Rvictorio/livraria.git
 ## Tecnologias 
 * JAVA
 * Intellij IDEA
-* JDBC
-* JPA
-* PostgreSQL
 * HTML
 * CSS
   
